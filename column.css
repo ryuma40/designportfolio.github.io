@@ -45,7 +45,6 @@ p {
 }
 .sentence {
 	list-style: none;
-	float: left;
 	padding-bottom: 100px;
 }
 ul {
