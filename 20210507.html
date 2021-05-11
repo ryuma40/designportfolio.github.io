@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'いい日旅立ち'</h3>
+        <img src="momoe.jpg" alt="momoe"><br><br><br><br>
+        <p class="sentence">
+          言わずと知れた山口百恵の名曲。
+
+当時、日本のTV CMは、今のようなインターネット広告も打てず、スポンサーが少なく時間も短かった為、曲を効果的に打ち出すには回数を重ねて打ち出していく他無かった。
+
+かといって経費もそうかけられな酒井政利は、日本旅行と日立製作所に直談判する。
+曲名に名前を入れることを条件に、スポンサー契約を獲得。
+
+日本旅行
+日立製作所
+
+
+いい日旅立ち
+
+
+整合性が有り、当時のカタカナや横文字が全盛だった歌謡曲ブームの中で一石を投じる
+名題。
+
+そう、これこそがデザインだと思う。
+装飾性は後から付いてくる、機能美に沿ったデザイン。
+
+最近、４０になり漸く整合性を気にするようになった。
+自分のスタイルもかなりシンプルになってきたと思う。
+Steve Jobs もMark Zuckerbergもスタイルはシンプルでその分の思考力をデザインに注いで
+いるのだろうか。
+デザインとは何なのかを自問自答する日々。
+
+ステージにマイクを置いた山口百恵はその後、一度も表舞台に登場することなく引退。
+愚直なまでに自分の信念を貫き通した彼女の一言。
+
+
+        </p>
+        <h4 class="maxim">
+          一億人の喝采を浴びて歌うのと、たった一人の喝采を浴びるのと、どっちが気持ちよく
+  歌えるの？<br>
+  <br>”当然、一人の為だけです”<br>
+        <br>
+        <br>
+        <br>
+        山口　百恵
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
