@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'アメリカドラマと日本ドラマ'</h3>
+        <img src="jack.jpg" alt="jack"><br><br><br><br>
+        <p class="sentence">
+          アメリカのドラマは人生を考えさせられる。
+          日本のドラマは見終わった後に何も残らない。
+
+          昔、バックパッカーをしていた頃を思い出す。
+          海外に行き外国人と話していると、政治と宗教の話しになった。
+          お前の国の政治はどうだ？それについてどう思うんだ？お前は何教で何を信頼している？
+
+          生まれて初めて、政治と宗教の話しをされそれについて考えさせられた。
+          信仰しているものがあり、その道が異なれば生き方が違う。
+          戦争は止められないのではないかと思ってしまう。
+
+
+          同じように、映画やドラマを見ていても伝わってくる事象が違う。
+          勿論、日本人には高い倫理観が備わっているので、海外のような目を背けたくなるシーンの放送は
+          難しいのだろう。
+          けどそれが、日本人がノーベル賞やカンヌを取れない理由の一つになってしまっていることもまた
+          事実だと思う。
+          ここ何年かで、日本人が海外スポーツにおいて奮起を上げることが多くなった。
+          ずっとスポーツをやってきた人間にとっては、とても嬉しいこと。
+          知性が有り、倫理が有り、おもてなしの心が備わった日本人。
+          もし日本が何らかの方法で良い方向で倫理観のタガを外す事が出来た時、全ての賞を総なめ出来る気質が日本人にはあると僕は思う。
+
+
+        </p>
+        <h4 class="maxim">
+          ”亡くした人は決して戻って来ない、それは確かだ.だが他の人を救う事が弔いになる、前に進むにはそれしか無い"<br>
+        <br>
+        <br>
+        <br>
+        JACK BAUER
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
