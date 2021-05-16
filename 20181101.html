@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'blankey jet city'</h3>
+        <img src="bjc.jpg" alt="bjc"><br><br><br><br>
+        <p class="sentence">
+          数少ない日本が誇る孤高のバンドだった。<br>
+          <br>
+          punk,rock’nroll,blues<br>
+          異なるジャンルと異なる三人の魂がぶつかり合い奏でるgroove。<br>
+          gigでは即興の演奏が始まる。<br>
+          解散liveでも妥協せず常に納得の出来る演奏を求め続ける。<br>
+          そうまでして魂を削り合う理由は何なのか。<br>
+<br>
+          トヨタが街を作るように、ベンジーはblankey jet cityを作る。<br>
+          40歳になっても50歳になっても少年の心を忘れない。<br>
+<br>
+          二度同じ演奏は出来ないと彼らはいう。<br>
+          こんなバンドもう出て来ないと思う。<br>
+<br>
+          もう一度観てみたいけれど、愚直なまでに筋を通す漢達として再結成はして欲しくない。<br>
+<br>
+<br>
+          いつか、この三人をテーマにした服をデザインしてみたいと思う。<br>
+          暖冬が続く昨今の日本。<br>
+<br>
+          さて、今年の冬は寒くなるだろうか・・・。<br>
+
+        </p>
+        <h4 class="maxim">
+          モデルガンを握りしめて
+          窓から外を見下ろせば
+          冬の香りが僕のほっぺたを
+          冷たく染めたよ <br>
+          <br>
+          ”今年の冬はとても寒くて長いからおばあさんが編んでくれたセーターを着なくっちゃ”<br>
+        <br>
+        <br>
+        <br>
+        浅井　健一
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
