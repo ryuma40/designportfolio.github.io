@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'get back'</h3>
+        <img src="getback.jpg" alt="getback"><br><br><br><br>
+        <p class="sentence">
+          映画let it be公開50周年を記念した映画get back sessionが公開される。﻿
+          コロナによって公開が一年延期されてしまったが、心待ちにしていた期間が長くなり
+          より期待が膨らむ。﻿
+
+          当時のレットイットビーは、ビートルズが解散へと至る軌跡の視点から映像が編集され作られていた。
+          しかし、今回のゲットバックでは、たった5分足らずの予告ムービーではあるが50年前の陰鬱な映画レットイットビーとは異なるget back sessionをする4人の姿がそこにあった。
+
+          ブライアンエプスタインが他界しジョージマーティンが不在になることにより、メンバー間の軋轢が深まり更にはメンバーの脱退が顕在化される中、ライブバンドの原点にゲットバックするプロジェクトが始動される。
+
+          ビートルズの曲には悲しい曲を悲しく聞かせない、カッコつける癖がある。
+          インマイライフ、ワインディングロード…
+          数え上げたら枚挙に暇がない。
+
+          踵を返し、自分の人生を一度俯瞰してみる。
+
+          ただなんとなくデザインしている。
+          ただなんとなくアパレルに居る。
+          社会人になってからそんな人達が繊維業界にいる事に、愕然としショックを受けたことを最近思い出す。
+          新入社員当時、憧れ羨望の眼差しで見つめていた業界に入りそれが打ち砕かれたのを思い出す。
+
+
+
+          そもそも僕がデザイナーを志すきっかけとなったのは、着たい洋服がこの世に無かったから。
+          勿論、両親共にデザイナーなのでその影響は大いに有ったと思うが、高校生の頃、街中のショップを歩いて周り、それでも欲しい服が無いことに憤りを感じ漠然と不甲斐無く思った。
+
+
+          デザインはメタファーだと思う。
+          人という体に対してアプローチする。
+          大なり小なりあれど基本構造は同じ体に対して着飾る者を考える。いかにプレゼンが上手くとも出来上がった物が評価される。
+          発想、素材、ディスカッション、全てひっくるめて出来上がる物が一つのメタファー。
+          メタファーの対義語はシミリー。
+          そう、今ではそれはシミリーとなり下がってしまったと思う。
+
+          ファストファッションの渦に巻き込まれ、本質的な物作りは激減し、気が付けばデザイナーはセレクターに成り下がった。
+
+          ポールは言った。
+          もう一度原点に立ち戻り、ライブバンドだった頃のバンドに戻りたいと。
+
+          斜陽産業と化した繊維業界、それでも僕は服を作り続けたい。
+          あなたは洋服が好きですか？
+
+        </p>
+        <h4 class="maxim">
+          "Get back to  where you once belonged"<br>
+        <br>
+        <br>
+        <br>
+        The Beatles
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
