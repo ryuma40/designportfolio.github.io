@@ -177,6 +177,9 @@ header {
   margin-right: auto;
   overflow: hidden;
 }
+.section-title {
+  height: 24px;
+}
 footer {
   height: 300px;
   width: auto;
