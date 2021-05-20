@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'basketball'</h3>
+        <img src="michael-jordan-1998.jpg" alt="michael-jordan"><br><br><br><br>
+        <p class="sentence">
+          今日、とても懐かしい夢を見た。
+          高校時代の、バスケットをしていた頃の夢。夢の中では現実とは異なり、チームメイトが体育館で必死に練習している
+          中、自分は彼女とそれを外から眺めていた・・・・。
+
+          バスケは小学校３年から今まで、唯一ずっと続けているスポーツであり、物事でもある。
+          中学や高校時代、こんなに続けると思っていなかった。
+          周りが遊んでいる中、何故自分だけ毎日夜遅くまで死に物ぐるいで練習する意味がわからなかったし、当時はまだ
+          BリーグやNBAに行く日本人など皆無だったため、プロになるという意識や目標も持てない中、貪欲に愚直に
+          練習していたことがとても嫌だった。
+
+          けれど、そんな中でも、一歩引き冷静に俯瞰していた自分を思い出した。
+
+          皆が懸命にボールを追いかける中、どこかにそれを否定し俯瞰する自分が居て、この選手はこうだ、顧問は今こんな
+          ことを考えながら自分たちを指導している、この考え方は間違っているんじゃないか？と、疑心暗鬼になりながら
+          練習していたと思う。
+          何故そういう考えに至ったかはわからないけれど、中学生の時に嫌々ながらもキャプテンをやらされ、少なからず、
+          周りのメンバーとの関係性や距離の置き方を子供ながらに勉強していたことが影響していたか。
+          そんな冷静な自分が居て、だから負けても自分だけ泣けなかったのかなとも思う。
+
+          振り返ってみて、それが良かったのか悪かったのかはわからない。
+          けど、一億人以上居る日本人の中で、少し位そんな人間が居てもいいんじゃないかと思う。
+          自分を肯定するわけではないけれど、抵抗が無ければ飛行機も飛べない。
+
+          角界で89連敗する力士が居る。
+          あと一敗で自分の記録を更新するそうだ。
+          相撲の世界は引退を強制される事は無く、50歳位の高齢の方が数多く存在する。
+          勿論、毎場所負け越しているが彼らだって決して負けたいわけでは無い。
+
+
+          そう、何事にも弱者が居るから強者が居る。
+          敵が居なければヒーローは存在出来ない。
+
+          赤はチャンピオン、青は挑戦者。
+          常に挑戦者で有り続ける。
+
+
+
+        </p>
+        <h4 class="maxim">
+          "人生で何かを達成したいと思うときは、積極的かつ、攻撃的にならなければならないと僕は自覚している。
+          目標を決めたら、それに向かってひたすら努力するだけだ。
+          何かを達成しようとする場合、受身の姿勢では絶対に達成することはできないと確信している。"<br>
+        <br>
+        <br>
+        <br>
+        Michael　Jordan
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
