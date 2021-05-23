@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'岩立広子'</h3>
+        <img src="grandmother.jpg" alt="grandmother"><br><br><br><br>
+        <p class="sentence">
+          ここ数年、毎回欠かさずに通っている展覧会がある。
+          岩立テキスタイルミュージアム。
+          100年以上前の衣装が見られるのは日本でもここだけではないだろうか。
+          生き字引とも言える方で、民族衣装、とりわけアジア系の衣装に滅法強く造詣が深い。
+          先日、たまたま本人とお会いする機会が有り、お話しを聞かせてもらった。
+          今ではヨルダンもシリアもトルコでさえも、内紛や戦争のせいで古い物はどんどん駆逐されてしまっているという。
+          年齢は存じていないがかなり高齢にお見受けするので、もしかしたらもうローカルな場所には行けないかもしれないと、勝手ながらに思ってしまった。
+
+          ここ最近、自分が敬愛するアーティストの方が代わる代わる天に召されている。
+          プリンスが死に、ジェームズブラウンが死に・・・。
+
+          ６０年代７０年代を生きたアーティスト達が次々に亡くなってゆく。
+          人間いつかは必ず死ぬ。
+
+          memento mori
+          死を想え
+
+
+          そんな話しを聞かせてもらい、デザイナーとして伝えるべき事は、古きを温めて新しきを知る。
+          温故知新。
+          僕らデザイナーは、これまでのしきたりを重んじそれをアップデートする事が仕事。
+
+
+          こんな事を今口にしたら失礼かもしれないけど、岩立さんはきっと死ぬまでアジアの情景に想いを馳せるのだと思う。
+
+          やりたい事を貫き通して死ぬ。
+          そんな一生にとても憧れる。
+          若い頃、ジミヘンの生き方に憧れカートのようになりたいと思い、シドヴィシャスのように死にたいと思った。
+          けれど、歳を重ねるにつれ、太く、長く生きたいと思うように気持ちが変わってきた。
+          人生１００年時代。
+          常に勉強し、経験したい.
+        </p>
+        <h4 class="maxim">
+          "Live as if you were to die tomorrow. Learn as if you were to live forever."<br>
+        <br>
+        <br>
+        <br>
+        Mohandas Karamchand Gandhi
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
