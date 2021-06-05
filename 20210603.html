@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <!--スマホ対応用viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'taxi-driver'</h3>
+        <img src="TAXI-DRIVER.jpg" alt="taxi-driver"><br><br><br><br>
+        <p class="sentence">
+          言わずと知れた名作。<br>
+          最近、とある番組で名作として紹介されており久しぶりに見た。<br>
+          ロバートデニーロ扮するトラヴィスは、ベトナム戦争からの帰還兵。<br>
+          定職に就かずタクシードライバーをやりながらストリップ劇場へ通う毎日。<br>
+          そんなトラヴィスが、本当に守りたい者を見つけ、英雄になるというストーリー。<br>
+          この映画を最初に見た中学生当時、モヒカンにし裸に銃のショルダーホルスターを掛けるデニーロ
+          の姿があまりに衝撃的過ぎて、中学生ながらとても度肝を抜かれたのを思い出した。<br>
+          <br>
+          <br>
+          韓国にもタクシードライバーという映画がある。<br>
+          こちらは事実を基に構成された映画。<br>
+          １９８０年代、実際にあった韓国光州での韓国人タクシードライバーとドイツ人記者の徐々に
+          開かれていく友情を描いたヒューマンドラマ。<br>
+          <br>
+          <br>
+          <br>
+          どちらの映画も写実的で、人間臭さに溢れた映画だと思う。<br>
+          帰還兵として帰国したトラヴィスは自分の居場所を見つけられず、ようやく見つけた場所は一人の少女を命と
+          引き換えでも守るという居場所を見つけた。<br>
+          マンソプは、ピーターを捨てきれずに約束を守りドライバーという仕事を全うした。<br>
+          <br>
+          cover-19によって人と触れ合う機会が減り、最近、久々に商談や会話をすると、あれ？こんな時どんな事言ってた
+          かなと思う事が増えた気がする。<br>
+          ライフワークバランスが見直され、在宅勤務が増えて生活が改善された事も勿論ある。<br>
+          反面、失うものも少なからずあることに気付く。<br>
+          デザイン、パターン、係数管理・・・。<br>
+          全てを完璧にこなすのは絶対に無理。<br>
+          一つのことを完璧に極めることさえ困難。<br>
+          焦らずゆっくりと、一歩ずつ着実に前進していくことが、結局は一番の近道なのだろう。
+          生きているうちは、デザインという生業を全うしたいと思う。
+        </p>
+        <h4 class="maxim">
+          "You talkin’ to me?"<br>
+        <br>
+        <br>
+        <br>
+        Travis Bickle
+        </h4>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+  </html>
