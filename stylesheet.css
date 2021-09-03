@@ -178,6 +178,16 @@ header {
   margin-right: auto;
   overflow: hidden;
 }
+.collaboration-wrapper {
+  width: 1200px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
 footer {
   height: 300px;
   width: auto;
