@@ -327,7 +327,7 @@ footer {
   .text-icon img {
     width: 250px;
     height: auto;
-
+  }
   .number {
     margin: 0 0 10px 0;
   }
@@ -345,5 +345,3 @@ footer {
   .footer-list {
     padding-left: 0;
   }
-
-}
