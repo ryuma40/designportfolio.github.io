@@ -55,6 +55,9 @@ h3, h4 {
   position: absolute;
   left: 150px;
 }
+.single-item {
+  margin-bottom: 100px;
+}
 .look-list {
   width: auto;
   height: auto;
