@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>top</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <!--/* 上に戻るボタン */-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+    var offset = 400;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+    jQuery('.pagetop').fadeIn(duration);
+    } else {
+    jQuery('.pagetop').fadeOut(duration);
+    }
+    });
+    jQuery('.pagetop').click(function(event) {
+    event.preventDefault();
+    jQuery('html, body').animate({scrollTop: 0}, duration);
+    return false;
+    })
+    });
+    </script>
+    <!--/* 上に戻るボタン */-->
+    <!--/* faviconの設定各検索エンジン */-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/gif" href="favicon.gif">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--/* faviconの設定各検索エンジン */-->
+  </head>
+  <body>
+    <header>
+        <div class="header-left">
+          <a href="index.html"><h1>DESIGN  PORTFOLIO</h1></a>
+        </div>
+        <div class="header-right">
+          <div class="sns">
+            <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+            <a href="https://instagram.com/5351pourleshommes_official?r=nametag"><i class="btn fa fa-instagram"></i></a>
+            <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+            <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+          </div>
+          <ul class="header-list">
+            <li class="link"><a href="philosophy.html">Philosophy</a></li>
+            <li class="link"><a href="about.html">About</a></li>
+            <li class="link"><a href="column.html">Column</a></li>
+            <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+    <div class="column-wrapper">
+      <h1 class="section-title">Column</h1>
+      <i class="fas fa-pencil-alt fa-3x"></i>
+      <p class="comment">日々気になった事や物について、綴っております。</p>
+      <div class="text-icon 審美眼">
+        <p class="section-title">"審美眼"</p>
+        <p class="season-title">"2020.02.23"</p>
+        <a href="20200223.html"><img src="fullmoon.jpg"></a>
+      </div>
+      <div class="text-icon 適者生存その道の話">
+        <p class="section-title">"適者生存その道の話"</p>
+        <p class="season-title">"2020.01.15"</p>
+        <a href="20200115.html"><img src="Hw-darwin.jpg"></a>
+      </div>
+      <div class="text-icon 意外性">
+        <p class="section-title">"意外性"</p>
+        <p class="season-title">"2019.03.05"</p>
+        <a href="20190305.html"><img src="yesterday.jpg"></a>
+      </div>
+      <div class="text-icon Johnの命日">
+        <p class="section-title">"Johnの命日"</p>
+        <p class="season-title">"2018.12.08"</p>
+        <a href="20181208.html"><img src="johnglass.jpg"></a>
+      </div>
+      <div class="text-icon 座右の銘">
+        <p class="section-title">"座右の銘"</p>
+        <p class="season-title">"2021.03.03"</p>
+        <a href="20210303.html"><img src="wang.jpg"></a>
+      </div>
+      <div class="text-icon ライナーノート">
+        <p class="section-title">"ライナーノーツ"</p>
+        <p class="season-title">"2019.06.15"</p>
+        <a href="20190615.html"><img src="linernotes.jpg"></a>
+      </div>
+      <div class="text-icon get back">
+        <p class="section-title">"GET BACK"</p>
+        <p class="season-title">"2021.05.20"</p>
+        <a href="20210520.html"><img src="letitbe.jpg"></a>
+      </div>
+      <div class="text-icon get back">
+        <p class="section-title">"GET BACK"</p>
+        <p class="season-title">"2021.06.20"</p>
+        <a href="20210620.html"><img src="letitbefiction.jpg"></a>
+      </div>
+      <div class="text-icon 栄枯盛衰">
+        <p class="section-title">"栄枯盛衰"</p>
+        <p class="season-title">"2019.01.20"</p>
+        <a href="20190120.html"><img src="hibari.jpg"></a>
+      </div>
+      <div class="text-icon 2020">
+        <p class="section-title">"2020"</p>
+        <p class="season-title">"2020.12.31"</p>
+        <a href="20201231.html"><img src="Martin Luther King, Jr.jpg"></a>
+      </div>
+      <div class="text-icon design">
+        <p class="section-title">"design"</p>
+        <p class="season-title">"2019.10.12"</p>
+        <a href="20191012.html"><img src="paul19592.jpg"></a>
+      </div>
+      <div class="text-icon いい日旅立ち">
+        <p class="section-title">"いい日旅立ち"</p>
+        <p class="season-title">"2021.05.07"</p>
+        <a href="20210507.html"><img src="momoe.jpg"></a>
+      </div>
+      <div class="text-icon product design">
+        <p class="section-title">"product design"</p>
+        <p class="season-title">"2021.05.15"</p>
+        <a href="20210515.html"><img src="asakura.jpg"></a>
+      </div>
+      <div class="text-icon ストリッパー">
+        <p class="section-title">"ストリッパー"</p>
+        <p class="season-title">"2021.04.16"</p>
+        <a href="20210416.html"><img src="bobdylan.jpg"></a>
+      </div>
+      <div class="text-icon アメリカドラマと日本ドラマ">
+        <p class="section-title">"アメリカドラマと日本ドラマ"</p>
+        <p class="season-title">"2021.05.01"</p>
+        <a href="20210501.html"><img src="jack.jpg"></a>
+      </div>
+      <div class="text-icon blankeyjetcity">
+        <p class="section-title">"blankeyjetcity"</p>
+        <p class="season-title">"2018.11.01"</p>
+        <a href="20181101.html"><img src="bjc.jpg"></a>
+      </div>
+      <div class="text-icon lostweekend">
+        <p class="section-title">"lost weekend"</p>
+        <p class="season-title">"2020.12.08"</p>
+        <a href="20201208.html"><img src="lostweekend.jpg"></a>
+      </div>
+      <div class="text-icon basketball">
+        <p class="section-title">"basketball"</p>
+        <p class="season-title">"2021.05.21"</p>
+        <a href="20210521.html"><img src="michael-jordan-1998.jpg"></a>
+      </div>
+      <div class="text-icon grandmother">
+        <p class="section-title">"岩立　広子"</p>
+        <p class="season-title">"2021.05.23"</p>
+        <a href="20210523.html"><img src="grandmother.jpg"></a>
+      </div>
+      <div class="text-icon taxi-driver">
+        <p class="section-title">"taxi-driver"</p>
+        <p class="season-title">"2021.06.03"</p>
+        <a href="20210603.html"><img src="TAXI-DRIVER.jpg"></a>
+      </div>
+      <div class="text-icon megami">
+        <p class="section-title">"女神の見えざる手"</p>
+        <p class="season-title">"2021.06.30"</p>
+        <a href="20210630.html"><img src="megami.jpg"></a>
+      </div>
+      <div class="text-icon tsutaki">
+        <p class="section-title">"突然段ボール"</p>
+        <p class="season-title">"2021.06.09"</p>
+        <a href="20210609.html"><img src="tsutaki.jpg"></a>
+      </div>
+      <div class="text-icon ganersha">
+        <p class="section-title">"夢をかなえるゾウ"</p>
+        <p class="season-title">"2021.0８.２9"</p>
+        <a href="20210829.html"><img src="elephant.jpg"></a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com"target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <!--/* 上に戻るボタン */-->
+    <div class="pagetop">↑</div>
+    <!--/* 上に戻るボタン */-->
+  </body>
+</html>
