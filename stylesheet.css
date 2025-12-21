@@ -345,3 +345,14 @@ footer {
   .footer-list {
     padding-left: 0;
   }
+
+/* index.htmlのコラム部分に「温故知新」と同じ質感を適用 */
+.column-inner h3, 
+.column-inner p, 
+.column-inner a,
+.column-inner .title {
+    font-family: "Lato", "Noto Sans JP", sans-serif !important;
+    font-weight: 700 !important; /* 温故知新(h2)と同じ太さ */
+    letter-spacing: 0.1em;
+    color: #fff !important;
+}
