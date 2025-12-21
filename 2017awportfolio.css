@@ -1,3 +1,14 @@
+/* サイト全体の文字を少し太くする設定 */
+body {
+  font-weight: 500 !important; /* 標準(400)より一段階太い500を指定 */
+  -webkit-font-smoothing: initial; /* 細く見せる加工を解除 */
+}
+
+/* タイトルなどはさらに太く(700)する場合 */
+h1, h2, h3, h4, .title {
+  font-weight: 700 !important;
+}
+
 header {
   background-color: black;
 }

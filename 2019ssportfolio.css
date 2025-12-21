@@ -16,7 +16,7 @@ body {
   text-align: center;
   margin-top: 45px;
   margin-bottom: 0;
-  font-weight: lighter;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .season {
@@ -74,7 +74,7 @@ li img {
 p {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #333;
 }

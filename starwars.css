@@ -17,7 +17,7 @@ body {
   margin-top: 45px;
   margin-bottom: 0;
   padding-top: 50px;
-  font-weight: lighter;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 .heading {
@@ -45,7 +45,7 @@ body {
 }
 h3, h4 {
   margin: 100px 0 50px 0;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
 }
 .keyword {
@@ -108,7 +108,7 @@ img {
 p {
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  font-weight: lighter;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #333;
   margin: 0 60px 0 60px;
