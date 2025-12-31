@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column | 2020.09.12</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+      var offset = 400;
+      var duration = 500;
+      jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.pagetop').fadeIn(duration);
+        } else {
+          jQuery('.pagetop').fadeOut(duration);
+        }
+      });
+      jQuery('.pagetop').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+      })
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'2020.09.12'</h3>
+        <img src="oldskool.jpg" alt="Banksy - Old Skool"><br><br><br><br>
+        
+        <p class="sentence">
+          『ミッドナイト・イン・パリ』を見た。<br>
+          過去にスリップする話だ。<br>
+          皆、過去に憧れる。<br>
+          <br>
+          事実、自分だって、過去の音楽やインテリア、デザインやその時代そのものに憧れる。ヘミングウェイと一緒に旅をしてみたかった。Beatlesを見たかった。ジュークボックスのロックンロールに合わせてツイストしてみたかった……。数え上げれば枚挙に暇が無い。<br>
+          <br>
+          先日、美濃太田駅のホームで60年間売り続けた釜飯弁当屋さんが長い歴史に幕を下ろした。毎日ほぼ休み無しで売り続けたそうだ。昔は電車の窓が自由に開けられ、速度もゆっくりだから走りながらでも窓から売れた。今は色々な問題で防波堤が出来、それも困難な時代になってしまった。リニアが開通すれば最早、駅弁の文化は無くなってしまうかもしれない。本当に頭が上がらない。<br>
+          <br>
+          人間は生活の便利さを追求する余り、大切な物も沢山失ってしまっている。<br>
+          おそらく、車は近々空を飛ぶ。法整備が1番の壁になるだろうが、現実的には空を飛ぶだろう。『バック・トゥ・ザ・フューチャー』でも『鉄腕アトム』でも、描かれた未来と現代を比べる。そんな時代になったら、露天風呂の風情も危ぶまれる時代になるんだろうなぁと押し憚ると、心苦しい。<br>
+          <br>
+          私たちが「進歩」や「効率」という名の抗えないルールに従い、良かれと思って積み上げてきた結果、かつての黄金時代の欠片は少しずつ壊されていく。ロビン・ガニンガムという本名が噂されながらも、匿名を貫き既存のシステムを風刺し続けるバンクシーなら、きっとこう言うはずだ。<br>
+          <br>
+          <br>
+        </p>
+
+        <h4 class="maxim">
+          "The greatest crimes in the world are not committed by people breaking the rules but by people following the rules."<br>
+          <br>
+          （世界で最も重大な犯罪は、ルールを破る人々ではなく、ルールに従う人々によって行われている。）<br>
+          <br>
+          <br>
+          Banksy
+        </h4>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="pagetop">↑</div>
+  </body>
+</html>
