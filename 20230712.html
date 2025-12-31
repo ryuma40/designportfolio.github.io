@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column | 2023.07.12</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+      var offset = 400;
+      var duration = 500;
+      jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.pagetop').fadeIn(duration);
+        } else {
+          jQuery('.pagetop').fadeOut(duration);
+        }
+      });
+      jQuery('.pagetop').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+      })
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'2023.07.12'</h3>
+        <img src="umehara.jpg" alt="umehara"><br><br><br><br>
+        
+        <p class="sentence">
+          二〇二三年七月十二日。<br>
+          <br>
+          先日、婆さんが亡くなった。<br>
+          母方の婆さん。一緒に暮らしていたわけではない。<br>
+          年に二度、盆と正月にだけ顔を合わせる。そんな関係性だった。<br>
+          <br>
+          けれど、会うたびに婆さんは、私を心から大切にしてくれた。<br>
+          最後は老人ホームで静かに、その生涯を閉じたという。大往生だった。<br>
+          <br>
+          人は必ず、いつか死ぬ。<br>
+          そんな当たり前の事実が、今は鋭い刃のように胸に突き刺さっている。<br>
+          人間が逃れられない絶対の終着点。<br>
+          それは、自分にも、明日すれ違う見知らぬ誰かにも、等しく用意されている出口だ。<br>
+          <br>
+          誰にでも終わりが来る。ならば、それまでの時間をどう埋めるべきか。<br>
+          代わり映えのない毎日を、ただ「こなして」生きていくのは、生きながら死んでいるのと同じではないか。<br>
+          <br>
+          婆さんの死を前にして、私は私自身に問う。<br>
+          私は、私という人間に絶望し、歩みを止めていないだろうか。<br>
+          「飽き」や「諦め」という言葉で、自分を騙してはいないだろうか。<br>
+          <br>
+          限りがある人生だからこそ、一秒でも長く、昨日とは違う自分に出会いたい。<br>
+          婆さんが繋いでくれたこの命を、自分自身に熱中できるほど使い切ってやりたいと思う。<br>
+          <br>
+          なぜなら、人は対象に飽きるのではないのだから。<br>
+          <br>
+          <br>
+        </p>
+
+        <h4 class="maxim">
+          ゲームでもスポーツでもよく人は『飽きた』って言いますよね？<br>
+          <br>
+          でもそれはゲームに飽きたんじゃなくて、『成長しない自分に飽きた』んですよね。<br>
+          <br>
+          <br>
+          プロゲーマー　梅原大吾
+        </h4>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="pagetop">↑</div>
+  </body>
+</html>
