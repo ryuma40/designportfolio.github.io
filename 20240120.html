@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>column | 2024.01.20</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="column.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/82cd1883ca.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+      var offset = 400;
+      var duration = 500;
+      jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.pagetop').fadeIn(duration);
+        } else {
+          jQuery('.pagetop').fadeOut(duration);
+        }
+      });
+      jQuery('.pagetop').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+      })
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="index.html"><h1>DESIGN PORTFOLIO</h1></a>
+      </div>
+      <div class="header-right">
+        <div class="sns">
+          <a href="https://www.facebook.com/ryuma.izumo"><i class="btn fa fa-facebook"></i></a>
+          <a href="https://www.instagram.com"><i class="btn fa fa-instagram"></i></a>
+          <a href="https://www.pinterest.jp/bacillusbrains7/boards/"><i class="btn fa fa-pinterest"></i></a>
+          <a href="https://line.me/ti/p/AbXX-OrPS3"><i class="btn fab fa-line"></i></a>
+        </div>
+        <ul class="header-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>"Column"</h2>
+      <div class="contents">
+        <h3 class="theme">'Refined Innocence'</h3>
+        <img src="zeami.jpg" alt="Refined Innocence"><br><br><br><br>
+        
+        <p class="sentence">
+          人は歳を重ねるに連れて頑固になっていく。<br>
+          頑固。頑なに固い。良くも悪くも聞こえるワードだが、頑固と書くとどちらかというとマイナスイメージが強いだろうか。<br>
+          物作りを生業として生きていると、我を貫くべきか譲るか問われる場面が多々ある。<br>
+          <br>
+          振り返ってみると自分は歳を重ねるにつれ、ニュートラルにしておけることが多くなったように思う。若い頃の方が頑なで自分を貫き通していた気がする。<br>
+          何故だろうと考える。きっと、かつての自分を自戒として、「あーならないようにしよう、こうなったらおしまいだ」と日々自分に言い聞かせているからかもしれない。<br>
+          <br>
+          毎年作っている物でも、ニュートラルな気持ちで取り組むと新鮮な物になり、思わぬ方に進み出す。工場との掛け合いにしてもそう。日々自分は素人だと思い、初心に帰って話しをする。自分の中では考えつかなかった発想や知識を得る事が多い。<br>
+          <br>
+          デザイナーは孤独で物を考えるけれど、物作りは個人で良い物はなし得ないと思う。20年デザインしてきても、上には上がいる。デザイナーでは描けない事もある。それも取り入れて更に良い物を作ってこそ、真のデザイナーだと、常に肝に命じておく。<br>
+          <br>
+          <br>
+          結局のところ、本当に『良い物』とは自分一人の頭の中から生まれるのではなく、現場の熱量や他者の視点が混ざり合った瞬間に、想像を超えて立ち上がってくるものだ。<br>
+          <br>
+          <br>
+          頑なさを捨て、ニュートラルな自分でいること。それこそが、20年経った今、ようやく手に入れたクリエイティビティの『攻めの姿勢』なのだと思う。<br>
+          <br>
+          <br>
+          <br>
+          「初心忘るべからず」 — 世阿弥
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-right">
+        <ul class="footer-list">
+          <li class="link"><a href="philosophy.html">Philosophy</a></li>
+          <li class="link"><a href="about.html">About</a></li>
+          <li class="link"><a href="column.html">Column</a></li>
+          <li class="link"><a href="mailto:bacillusbrains23@gmail.com" target="_blank">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="pagetop">↑</div>
+  </body>
+</html>
